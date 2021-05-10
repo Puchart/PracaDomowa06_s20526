@@ -9,6 +9,6 @@ public class HUDManager : MonoBehaviour
 
     public void SetPlayersPoints(int points)
     {
-        playerPoints.text = $"Points:{points}";
+        playerPoints.text = $"{points}";
     }
 }
